@@ -45,7 +45,8 @@ CREATE TABLE `layoffs_staging2` (
   `date` text,
   `stage` text,
   `country` text,
-  `funds_raised_millions` int DEFAULT NULL,`row_num`INT
+  `funds_raised_millions` int DEFAULT NULL,
+  `row_num`INT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 SELECT *
